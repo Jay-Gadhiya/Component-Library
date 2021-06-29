@@ -11,6 +11,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+span{
+    color: var(--primary-color);
+}
+
 /* container  */
 .container {
     padding-left: 1rem;
@@ -25,13 +29,13 @@ body {
 /* links */
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
 
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 00.5rem;
+    border-radius: 0.5rem;
     color: white;
 }
 
@@ -98,7 +102,7 @@ body {
 
 .hero .hero-heading {
     text-align: center;
-    color: var(--dark-gray);
+    /* color: var(--dark-gray); */
     padding-top: 1rem;
 
 
@@ -135,7 +139,7 @@ body {
 
 .footer .footer-header{
     font-weight:bold;
-    font-size: large;ll
+    font-size: large;
 
 }
 
