@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --primary-color: #0ee0c4;
+    --primary-color: #00B0FF;
     --dark-gray: #94A3B8;
     --off-white: #F1F5F9;
 
@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 span{
@@ -65,6 +66,9 @@ span{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+    margin: auto;
+    width: 850px;
 
 }
 
@@ -79,7 +83,7 @@ span{
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .navigation .link-active {
@@ -91,6 +95,8 @@ span{
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    margin: auto;
+    width: 850px;
 
 }
 
@@ -115,6 +121,9 @@ span{
 
 .section{
     padding: 1rem;
+    margin: auto;
+    width: 850px;
+    border-radius: 1rem;
 }
 
 .ow{
@@ -127,6 +136,9 @@ span{
     text-align: center;
     color: white;   
     border-top-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+    margin: auto;
+    width: 850px;
 }
 
 .footer .link{
@@ -143,3 +155,41 @@ span{
 
 }
 
+/* icon */
+.fab {
+    font-size: 2rem;
+    color: rgb(53, 46, 46);
+}
+
+
+/* Project css */
+
+.container-center-project {
+    /* display: inline; */
+    margin: auto;
+    width: 950px;
+    text-align: center;
+}
+
+.mark {
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(64, 64, 230);
+}
+
+.back {
+    background-color: var(--off-white);
+    border-radius: 1rem;
+
+}
+
+.section-project {
+    padding: 2rem;
+    margin: auto;
+    width: 850px;
+    border-radius: 1rem;
+}
+
+.project-center {
+    padding: 2rem;
+}
