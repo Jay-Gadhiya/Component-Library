@@ -68,7 +68,7 @@ span{
     border-bottom-left-radius: 1.1rem;
     border-bottom-right-radius: 1.1rem;
     margin: auto;
-    width: 850px;
+    max-width: 850px;
 
 }
 
@@ -96,7 +96,7 @@ span{
     padding: 2rem;
     padding-top: 5rem;
     margin: auto;
-    width: 850px;
+    max-width: 850px;
 
 }
 
@@ -122,7 +122,7 @@ span{
 .section{
     padding: 1rem;
     margin: auto;
-    width: 850px;
+    max-width: 850px;
     border-radius: 1rem;
 }
 
@@ -138,7 +138,7 @@ span{
     border-top-right-radius: 1.1rem;
     border-top-left-radius: 1.1rem;
     margin: auto;
-    width: 850px;
+    max-width: 850px;
 }
 
 .footer .link{
@@ -167,7 +167,7 @@ span{
 .container-center-project {
     /* display: inline; */
     margin: auto;
-    width: 950px;
+    max-width: 950px;
     text-align: center;
 }
 
@@ -186,10 +186,30 @@ span{
 .section-project {
     padding: 2rem;
     margin: auto;
-    width: 850px;
+    max-width: 850px;
     border-radius: 1rem;
 }
 
 .project-center {
     padding: 2rem;
+}
+
+/* Blog */
+
+.hr1{
+    max-width: 500px;
+}
+
+.blogs {
+    margin: auto;
+    max-width: 600px;
+    padding-top: 0.6rem;
+}
+
+.btn {
+    
+    display: flex;
+    width: fit-content;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
 }
