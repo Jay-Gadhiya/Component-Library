@@ -7,6 +7,10 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -31,7 +35,6 @@ span{
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
 
 .link-primary {
@@ -58,6 +61,10 @@ span{
 .list-item-inline {
     display: inline;
     padding: 0em 0.5em;
+}
+
+.icon-color{
+    color: wheat;
 }
 
 /* navigation */
@@ -97,13 +104,13 @@ span{
     padding-top: 5rem;
     margin: auto;
     max-width: 850px;
-
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
+    object-fit: cover;
 }
 
 .hero .hero-heading {
@@ -158,7 +165,11 @@ span{
 /* icon */
 .fab {
     font-size: 2rem;
-    color: rgb(53, 46, 46);
+    color: wheat;
+}
+
+.fab:hover {
+    color: #99e4f1;
 }
 
 
@@ -212,4 +223,16 @@ span{
     width: fit-content;
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
+}
+
+
+@media screen and (max-width : 400px) {
+    .hero {
+        padding: 1rem 1rem;
+    }
+
+    .link {
+        padding: 0.5rem .6rem;
+        font-size: .9rem;
+    }
 }
